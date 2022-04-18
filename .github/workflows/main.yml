@@ -39,9 +39,9 @@ jobs:
     needs: jobenv
     env:
       APP_NAME: text21
-      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_API_KEY: f5150822-0bef-4736-bb3c-9002efe415f5
       EMAIL: hwwnas@foxmail.com
-      HEROKU_V2RAY_UUID: ${{ secrets.HEROKU_V2RAY_UUID }}
+      HEROKU_V2RAY_UUID: ce7ea10b-5b27-49ab-a93d-6b184df9cce9
       HEROKU_TUNNEL_TOKEN: ${{ secrets.HEROKU_TUNNEL_TOKEN }}
     steps:
       - run: |
